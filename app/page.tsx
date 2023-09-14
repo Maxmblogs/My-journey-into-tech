@@ -3,9 +3,6 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className="container mx-auto px-6">
-      <div>
-        <Navbar/>
-      </div>
 
       <div className='m-4 flex flex-col'>
         <li className='flex justify-center py-6'>

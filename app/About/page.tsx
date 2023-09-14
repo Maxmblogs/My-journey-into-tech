@@ -11,8 +11,6 @@ export default function About() {
         <Button variant="outline">
         <Link href={"/"}>Back</Link>
         </Button>
-
-        <div className="ml-auto"><ModeToggle/></div>
       </div>
 
     <div className='flex justify-center'>
