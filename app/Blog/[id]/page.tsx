@@ -9,7 +9,7 @@ export default async function BlogPostPage({ params }: Props) {
     const post = posts.find((post) => post.id === params.id)
     
     return (
-        <div>
+        <div className="h-screen container mx-auto">
             <h1>{post?.title}</h1>
             <p>{post?.content}</p>
         </div>
